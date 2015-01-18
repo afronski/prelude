@@ -63,8 +63,7 @@ This functions should be added to the hooks of major modes for programming."
               (prelude-smart-open-line-above)) "RET")))
 
 ;; enlist a more liberal guru
-(setq guru-warn-only nil)
-(guru-global-mode +1)
+(setq guru-warn-only t)
 
 (defun prelude-prog-mode-defaults ()
   "Default coding hook, useful with any programming language."
